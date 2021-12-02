@@ -11,9 +11,6 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -56,10 +53,10 @@
     </section>
     </header>
     <!-- Main -->
-    <main class="card-container">
-      <section class="card-list">
-        <article class="card">
-          <img src="/img/Ficus elastica _ Superbotanica.png" alt="Plant pot">
+    <main>
+      <section class="row card-container justify-content-md-around">
+        <article class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <img class="img-fluid img-thumbnail" src="/img/Ficus elastica _ Superbotanica.png" alt="Plant pot">
           <p class="cap">Ficus Elastica </p>
           <section>
             <section class="icons">
@@ -69,8 +66,8 @@
             <p>40$</p>
           </section>
         </article>
-        <article class="card">
-          <img src="/img/Affordable Houseplants Ready to Ship to Your Door.jpeg" alt="">
+        <article class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <img class="img-fluid img-thumbnail" src="/img/Affordable Houseplants Ready to Ship to Your Door.jpeg" alt="">
           <p class="cap">Sansevieria Trifasciata</p>
           <section>
             <section class="icons">
@@ -80,8 +77,8 @@
             <p>40$</p>
           </section>
         </article>
-        <article class="card">
-          <img class="card-img" src="https://i.pinimg.com/564x/39/dd/6f/39dd6ff4fa416f63f09f30f7f9cdf09f.jpg" alt="Fittonia plant">
+        <article class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <img class="img-fluid img-thumbnail" class="card-img" src="https://i.pinimg.com/564x/39/dd/6f/39dd6ff4fa416f63f09f30f7f9cdf09f.jpg" alt="Fittonia plant">
           <p class="cap">Fittonia Plant</p>
           <section>
             <section class="icons">
@@ -91,8 +88,8 @@
             <p>40$</p>
           </section>
         </article>
-        <article class="card">
-          <img class="card-img"src="/img/How to Care for a Monstera Deliciosa - That Planty Life.png" alt="Monstera plant">
+        <article class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <img class="img-fluid" src="/img/How to Care for a Monstera Deliciosa - That Planty Life.png" alt="Monstera plant">
           <p class="cap">Monstera Plant</p>
           <section>
            <section class="icons">
@@ -102,6 +99,51 @@
             <p>60$</p>
           </section>
         </article>
+        <article class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <img class="img-fluid img-thumbnail" src="/img/Ficus elastica _ Superbotanica.png" alt="Plant pot">
+          <p class="cap">Ficus Elastica </p>
+          <section>
+            <section class="icons">
+            <i class="fa-solid fa-cart-shopping shop"></i>
+            <i class="fa-regular fa-heart heart"></i>
+          </section>
+            <p>40$</p>
+          </section>
+        </article>
+        <article class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <img class="img-fluid img-thumbnail" src="/img/Affordable Houseplants Ready to Ship to Your Door.jpeg" alt="">
+          <p class="cap">Sansevieria Trifasciata</p>
+          <section>
+            <section class="icons">
+            <i class="fa-solid fa-cart-shopping shop"></i>
+            <i class="fa-regular fa-heart heart"></i>
+          </section>
+            <p>40$</p>
+          </section>
+        </article>
+        <article class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <img class="img-fluid img-thumbnail" class="card-img" src="https://i.pinimg.com/564x/39/dd/6f/39dd6ff4fa416f63f09f30f7f9cdf09f.jpg" alt="Fittonia plant">
+          <p class="cap">Fittonia Plant</p>
+          <section>
+            <section class="icons">
+            <i class="fa-solid fa-cart-shopping shop"></i>
+            <i class="fa-regular fa-heart heart"></i>
+          </section>
+            <p>40$</p>
+          </section>
+        </article>
+        <article class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <img class="img-fluid" src="/img/How to Care for a Monstera Deliciosa - That Planty Life.png" alt="Monstera plant">
+          <p class="cap">Monstera Plant</p>
+          <section>
+           <section class="icons">
+            <i class="fa-solid fa-cart-shopping shop"></i>
+            <i class="fa-regular fa-heart heart"></i>
+          </section>
+            <p>60$</p>
+          </section>
+        </article>
+        <!-- 
         <article class="card">
           <img src="https://i.pinimg.com/564x/64/93/b0/6493b023543dec878a6a83ac69678234.jpg" alt="Begonia Maculata">
           <p class="cap">Begonia Maculata</p>
@@ -145,7 +187,7 @@
           </section>
             <p>30$</p>
           </section>
-        </article>
+        </article> -->
       </section>
     </main>
     <!-- Footer -->
@@ -165,5 +207,9 @@
         </ul>
       </section>
     </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
   </body>
 </html>
