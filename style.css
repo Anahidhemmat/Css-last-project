@@ -74,7 +74,7 @@ body {
 /* Heading */
 
 .container-big-image {
-  background-image: url(/img/plant.jpeg);
+  background-image: url(./img/plant.jpeg);
   background-position: 50%;
   background-attachment: fixed;
   background-size: cover;
@@ -368,7 +368,7 @@ body {
     gap: 30px;
   }
   .footer {
-    background-image: url(img/footerw2.jpeg);
+    background-image: url(./img/footerw2.jpeg);
     height: 40.625rem;
   }
   .about,
