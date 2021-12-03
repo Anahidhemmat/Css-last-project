@@ -127,10 +127,11 @@ body {
   transition-duration: 0.3s;
   margin-bottom: 30px;
   overflow: hidden;
+  margin: 1px;
 }
 .cards:hover {
   box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
-  transform: scale(1.12);
+  transform: scale(1.03);
 }
 .img-card {
   width: 100%;
@@ -305,10 +306,10 @@ body {
   transform: translateY(-10px);
 }
 .about:hover {
-  transform: scale(1.12);
+  transform: scale(1.08);
 }
 .socials:hover {
-  transform: scale(1.12);
+  transform: scale(1.08);
 }
 /* Media Queries */
 @media screen and (max-width: 550px) {
