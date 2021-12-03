@@ -306,10 +306,10 @@ body {
   transform: translateY(-10px);
 }
 .about:hover {
-  transform: scale(1.12);
+  transform: scale(1.08);
 }
 .socials:hover {
-  transform: scale(1.12);
+  transform: scale(1.08);
 }
 /* Media Queries */
 @media screen and (max-width: 550px) {
