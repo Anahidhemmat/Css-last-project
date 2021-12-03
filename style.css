@@ -117,6 +117,7 @@ body {
   align-content: space-around;
   padding-top: 30px;
   position: relative;
+  gap: 20px;
 }
 .cards {
   width: 20.625rem;
@@ -363,6 +364,9 @@ body {
   }
 }
 @media screen and (max-width: 1041px) {
+  .container-card {
+    gap: 30px;
+  }
   .footer {
     background-image: url(img/footerw2.jpeg);
     height: 40.625rem;
