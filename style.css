@@ -208,7 +208,6 @@ body {
 }
 
 .price {
-  display: inline-block;
   float: right;
   font-size: 1.5rem;
   margin-right: 10px;
@@ -340,7 +339,7 @@ body {
   }
   .about {
     width: 20rem;
-    height: 21.875rem;
+    height: 20.875rem;
   }
   .footer {
     gap: 0;
@@ -375,5 +374,18 @@ body {
   .about,
   .socials {
     margin-top: 0;
+  }
+}
+@media screen and (max-width: 370px) {
+  .cards {
+    margin: 15px;
+  }
+  .label {
+    font-size: 0.9rem;
+    left: 235px;
+  }
+  .about {
+    font-size: 1.3rem;
+    line-height: 0.8rem;
   }
 }
